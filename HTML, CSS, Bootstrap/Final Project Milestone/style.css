@@ -1,0 +1,148 @@
+
+#section {
+  display: block;
+} 
+
+body {
+  position: relative;
+}
+
+.navbar {
+  position: sticky;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.6)), 
+                    url("assets/USF.jpg");
+  height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-shadow: 0.5px 0.5px #99BADD;
+}
+
+.hero-content {
+  text-align: center;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  position: relative;
+}
+
+.hero img {
+  height: 22vw;
+  width: 22vw;
+  border-radius: 300px;
+  border: 2px solid #B0C4DE;
+}
+
+.hero h1 {
+  margin: 1.5vw; 
+  padding: 0px; 
+  font-size: 3.5vw;
+}
+
+.hero p {
+  margin: 0px; 
+  padding: 0px;
+  font-size: 2vw;
+}
+
+.mission {
+  background-color: #1F2022;
+  color: white;
+  padding: 50px;
+}
+
+.mission h2 {
+  padding: 25px;
+}
+
+.mission p {
+  padding: 25px;
+}
+
+.mission img {
+  display: inline-block;
+  text-align: center;
+  align: left;
+  width: 500px;
+  padding: 50px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.skills {
+  background-color: #A3B5C0;
+  margin: auto;
+  padding: 50px;
+}
+
+.skills h2 {
+  padding: 15px;
+}
+
+.skills p {
+  padding: 10px;
+}
+
+.skills img {
+  object-position: center;
+  object-fit: cover;
+  padding: 15px;
+}
+
+.inspiration-content {
+  background-color: #1F2022;
+  padding: 70px;
+}
+
+.inspiration-content h2 {
+  color: white;
+  padding: 30px;
+}
+
+.inspiration-content h5 {
+  font-size: 30px;
+  text-shadow: 2px 2px black;
+}
+
+.inspiration-content p {
+  font-size: 15px;
+  text-shadow: 2px 2px black;
+}
+
+.inspiration-content img {
+  object-fit: cover;
+  height: 85vh;
+  width: 85vh;
+  object-position: center;
+  overflow: hidden;
+}
+
+.contact {
+  background-color: #A3B5C0;
+  padding: 50px;
+}
+
+.contact h2 {
+  padding: 40px;
+}
+
+.contact i {
+  font-size: 4rem;
+  padding: 30px;
+}
+
+#footer-section {
+  padding: 20px;
+  background-color: #1F2022;
+  color: white;
+}
